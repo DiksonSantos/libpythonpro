@@ -50,3 +50,6 @@ Dentro de requirements_c_flake8.txt   -> Faz com que o conteudo de requirements.
 seja também instalado, se o requirements_c_flake8.txt for instalado com o
 comando   pip install -r requirements_c_flake8.txt
 """
+
+
+# Fiz a integração com PyUp
