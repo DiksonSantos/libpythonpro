@@ -95,9 +95,10 @@ def find_package_data(
 
 
 PACKAGE = "libpythonpro"
-NAME = 'libpythonpro'
-DESCRIPTION = "Módulo para exemplificar construção de projetos Python no curso PyTools"
-AUTHOR = "DiksonSantos"
+NAME = PACKAGE
+DESCRIPTION = "Modulo para exemplificar construcao de projetos Python no curso PyTools"
+long_description_content_type = 'text/markdown',
+AUTHOR = "Dikson"
 AUTHOR_EMAIL = "dikson_santos@outlook.com"
 URL = "https://github.com/DiksonSantos/LibPythonPRO"
 # A linha de baixo consta no arquivo __init__.py
