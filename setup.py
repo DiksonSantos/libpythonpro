@@ -94,8 +94,8 @@ def find_package_data(
     return out
 
 
-PACKAGE = "libpythonpro"
-NAME = PACKAGE
+PACKAGE = "LibPythonPro"
+NAME = "Owner"
 DESCRIPTION = "Modulo para exemplificar construcao de projetos Python no curso PyTools"
 long_description_content_type = 'text/markdown',
 AUTHOR = "dikson"
@@ -105,7 +105,7 @@ URL = "https://github.com/DiksonSantos/LibPythonPRO"
 VERSION = __import__(PACKAGE).__version__
 
 setup(
-    name=NAME,
+    name='dikson',
     version=VERSION,
     description=DESCRIPTION,
     long_description=read('README.md'),
