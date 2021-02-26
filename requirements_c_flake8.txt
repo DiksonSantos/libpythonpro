@@ -19,8 +19,9 @@ pyparsing==2.0.2
 
 
 #Bibliotecas do PyTest Coverage
-coverage-5.4
-pytest-cov-2.11.1
+coverage==5.4
+pytest-cov==2.11.1
+
 
 
 
