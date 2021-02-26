@@ -1,25 +1,29 @@
-
-
+#Primeiras Libs:
 flake8==3.8.4
-
-
 mccabe==0.6.1
-
 pycodestyle==2.6.0
 pyflakes==2.2.0
-
 typing-extensions==3.7.4.3
-
 zipp==3.4.0
 
--r requirements.txt
+
 
 
 #Dependencias do PyTest:
 py==1.8.2
 attrs==19.2.0
-
-
 importlib-metadata>=0.12
-
 pyparsing==2.0.2
+
+
+
+
+#Bibliotecas do PyTest Coverage
+coverage==5.4
+pytest-cov==2.11.1
+
+
+
+
+
+-r requirements.txt
