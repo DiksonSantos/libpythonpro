@@ -1,9 +1,15 @@
 language: python
 python:
-  - 3.7
+  - 3.9
 
 install:
-  - pip install -q -r requirements_c_flake8.txt
+  #- pip install -q -r requirements_c_flake8.txt codecov
+   - pip install -q pipenv codecov
+   - pipenv sync --dev
 script:
   - flake8
   - pytest libpythonpro
+  - pytest libpythonpro --cov=libpythonpro
+after_success:
+  - codecov
+

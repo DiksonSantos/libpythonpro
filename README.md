@@ -6,7 +6,7 @@ Nesse curso é ensinado como contribuir com projetos de código aberto
 Link para o curso [Python Pro](https://www.python.pro.br/)
 
 [![Build Status](https://travis-ci.org/DiksonSantos/LibPythonPRO.svg?branch=main)](https://travis-ci.org/DiksonSantos/LibPythonPRO)
-
+[![codecov](https://codecov.io/gh/DiksonSantos/LibPythonPRO/branch/main/graph/badge.svg?token=KQ7KCA9DU0)](https://codecov.io/gh/DiksonSantos/LibPythonPRO)
 Suportada versão 3 de Python
 
 Para instalar:
