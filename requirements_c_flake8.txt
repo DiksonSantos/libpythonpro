@@ -22,4 +22,4 @@ attrs==19.2.0
 
 importlib-metadata>=0.12
 
-pyparsing==2.0.2
+pyparsing==2.4.7
