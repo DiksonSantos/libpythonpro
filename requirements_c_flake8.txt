@@ -17,7 +17,7 @@ zipp==3.4.0
 
 #Dependencias do PyTest:
 py==1.8.2
-attrs==19.2.0
+attrs==21.2.0
 
 
 importlib-metadata>=0.12
